@@ -5,8 +5,8 @@ This utility fetches and stores the most common user-agent strings in JSON forma
 ## Help Menu
 
 ```
-# python3 2.py
-usage: 2.py [-h] [--update] [--fetch KEY]
+# python3 GetUserAgentsByShare.py
+usage: GetUserAgentsByShare.py [-h] [--update] [--fetch KEY]
 
 User Agent Utility
 
@@ -19,12 +19,12 @@ options:
 ## Examples: 
 ### mobile user agent
 ```
-# python3 2.py --fetch mobile
+# python3 GetUserAgentsByShare.py --fetch mobile
 Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/27.0 Chrome/125.0.0.0 Mobile Safari/537.3
 ```
 ### desktop user agent
 ```
-# python3 2.py --update --fetch desktop
+# python3 GetUserAgentsByShare.py --update --fetch desktop
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.3
 ```
 ### in-bash usage:
