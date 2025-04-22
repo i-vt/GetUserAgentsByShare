@@ -27,7 +27,7 @@ Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Samsun
 # python3 2.py --update --fetch desktop
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.3
 ```
-## in-bash usage:
+### in-bash usage:
 ```
 wget iplocation.net -U "$(python3 ./GetUserAgentsByShare.py --fetch desktop)"
 ```
